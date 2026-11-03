@@ -394,18 +394,18 @@ unsigned int Read_Potentiometer(unsigned char channel)
 
 unsigned long BUTTON_RESISTORS_OHMS[12] =
 {
-    100,      // PB1:  100 ohm
-    1000,     // PB2:  1 k
-    2200,     // PB3:  2.2 k
-    3900,     // PB4:  3.9 k
-    5600,     // PB5:  5.6 k
-    8200,     // PB6:  8.2 k
-    12000,    // PB7:  12 k
-    18000,    // PB8:  18 k
-    27000,    // PB9:  27 k
-    43000,    // PB10: 43 k
-    91000,    // PB11: 91 k
-    220000   // PB12: 220 k
+    99.13,      // PB1:  100 ohm
+    974.72,     // PB2:  1 k
+    2132,     // PB3:  2.2 k
+    3294,     // PB4:  3.9 k
+    3802,     // PB5:  5.6 k
+    5564,     // PB6:  8.2 k
+    7003,    // PB7:  12 k
+    8068,    // PB8:  18 k
+    11850,    // PB9:  27 k
+    17904,    // PB10: 43 k
+    26770,    // PB11: 91 k
+    47257   // PB12: 220 k
 };
 
 void Set_AN0_Channel(void){
